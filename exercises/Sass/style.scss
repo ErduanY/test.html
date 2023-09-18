@@ -1,0 +1,25 @@
+
+@import "variables";
+@import "function";
+
+.main {
+    @include center;
+    background-color: $primary-color;
+    color: color(secondcolor);
+    .section{
+        font-weight: weight(bold);
+        .p2 {
+            font-weight: weight(regular);
+            color: color(thirdcolor);
+        }
+    }
+}
+
+.section2 { 
+    @include fontstyle;
+    @include center;
+    background-color: $secondary-color;
+    p:hover{
+        color: color(firstcolor);
+    }
+}

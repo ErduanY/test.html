@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: purple;
+}
+.main .section {
+  font-weight: 700;
+}
+.main .section .p2 {
+  font-weight: 400;
+  color: orange;
+}
+
+.section2 {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: rgb(241, 11, 11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+.section2 p:hover {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */
