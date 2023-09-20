@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* @include mobile;*/
   background-color: green;
   color: purple;
 }
@@ -21,6 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* @include mobile;*/
   background-color: lightblue;
 }
 .section2 p:hover {

@@ -25,3 +25,9 @@
         max-width: 100vh;
     }
 }
+
+@mixin mobile($mobile) {
+    @media (max-width:$mobile){
+        @content
+    }
+}

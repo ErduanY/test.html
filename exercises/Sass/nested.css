@@ -1,0 +1,27 @@
+.body .header1 {
+  color: blue;
+}
+.body .header2 {
+  color: black;
+}
+.body .p23 {
+  color: black;
+}
+
+p.p::first-letter {
+  color: red;
+  font-size: xx-large;
+}
+
+p.p23::first-line {
+  color: orange;
+  background-color: purple;
+}
+
+h1::before {
+  content: "1.";
+}
+
+h2::before {
+  content: "2.";
+}/*# sourceMappingURL=nested.css.map */

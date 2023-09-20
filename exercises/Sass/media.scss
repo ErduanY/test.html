@@ -1,0 +1,46 @@
+
+/* $maxwidth: 600px;
+$width: 300px;
+
+@mixin media-text($maxwidth, $width) {
+    @media (max-width: $maxwidth) {
+        width: $width;
+    }
+}
+
+.p1 {
+    @include media-text(400px,300px);
+}
+
+.p2 {
+    @include media-text(400px,200px);
+} */
+
+@use 'sass:math';
+
+@function pxtoem($px){
+    $emvalue:($px/16) + em;
+    @return $emvalue;
+}
+
+@function body-theme($bgcolor){
+    @if $bgcolor == "light" {
+        @return black;
+     } @else {
+            @return red;
+        }
+    }
+
+
+
+body {
+    font-weight: 900-200;
+    width: (85.2/12.6);
+    font-size: pxtoem(20);
+    color: body-theme(light);
+}
+
+.p1 {
+    width: pxtoem(400);
+    height: pxtoem(200);
+}

@@ -1,0 +1,27 @@
+/* $maxwidth: 600px;
+$width: 300px;
+
+@mixin media-text($maxwidth, $width) {
+    @media (max-width: $maxwidth) {
+        width: $width;
+    }
+}
+
+.p1 {
+    @include media-text(400px,300px);
+}
+
+.p2 {
+    @include media-text(400px,200px);
+} */
+body {
+  font-weight: 700;
+  width: 6.7619047619;
+  font-size: 1.25em;
+  color: black;
+}
+
+.p1 {
+  width: 25em;
+  height: 12.5em;
+}/*# sourceMappingURL=media.css.map */
