@@ -23,6 +23,30 @@ body {
     grid-area: hd;
     margin-bottom: 0.5rem;
 }
+.ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+  }
+  
+  li {
+    float: left;
+    list-style-type: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    color: yellow;
+  }
 
 .footer {
     grid-area: ft;
@@ -32,9 +56,10 @@ body {
 
 .el {
     display: grid;
-    background-color: gray;
+    background-color: purple;
     color: black;
     place-content: center;
+
 }
 
 .sidebar {
